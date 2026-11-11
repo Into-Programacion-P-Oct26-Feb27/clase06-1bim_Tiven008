@@ -44,3 +44,8 @@ public class Ejemplo01 {
     }
 
 }
+
+/*
+El usuario deberia ingresar 1 para poder trabajar con AND ya que en esa opcion
+esta que se puede trabajar con AND caso contrario no podria trabajar con ese
+*/
