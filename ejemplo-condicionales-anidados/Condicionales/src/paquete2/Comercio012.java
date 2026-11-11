@@ -62,7 +62,7 @@ public class Comercio012 {
         if (productividad <= 30) {
             bono = 25; // $25
             sueldoFinal = adicionalSeguro + bono + sueldoBasico;
-            System.out.printf("Reporte de Empleado EL GRAN COMERCIO\n\n"
+            System.out.printf("Reporte de Empleado \n\n"
                     + "Empresa: %s\n"
                     + "Nombres: %s\n"
                     + "Apellidos: %s\n"
@@ -88,7 +88,7 @@ public class Comercio012 {
             if (productividad > 30 && productividad < 80) {
                 bono = 50;
                 sueldoFinal = adicionalSeguro + bono + sueldoBasico;
-                System.out.printf("Reporte de Empleado EL GRAN COMERCIO\n\n"
+                System.out.printf("Reporte de Empleado \n\n"
                     + "Empresa: %s\n"
                     + "Nombres: %s\n"
                     + "Apellidos: %s\n"
@@ -114,7 +114,7 @@ public class Comercio012 {
                 if (productividad >= 80 && productividad < 200) {
                     bono = 100;
                     sueldoFinal = adicionalSeguro + bono + sueldoBasico;
-                    System.out.printf("Reporte de Empleado EL GRAN COMERCIO\n\n"
+                    System.out.printf("Reporte de Empleado \n\n"
                             + "Empresa: %s\n"
                             + "Nombres: %s\n"
                             + "Apellidos: %s\n"
@@ -140,7 +140,7 @@ public class Comercio012 {
                     if (productividad >= 200) {
                         bono = 200;
                         sueldoFinal = adicionalSeguro + bono + sueldoBasico;
-                        System.out.printf("Reporte de Empleado EL GRAN COMERCIO\n\n"
+                        System.out.printf("Reporte de Empleado \n\n"
                                 + "Empresa %s\n"
                                 + "Nombres: %s\n"
                                 + "Apellidos: %s\n"
