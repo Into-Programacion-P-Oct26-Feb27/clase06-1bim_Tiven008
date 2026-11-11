@@ -33,6 +33,11 @@ public class Comercio012 {
 
         double sueldoFinal;
 
+        String nombreEmpresa;
+        
+        System.out.println("Ingrese el nombre de la empresa");
+        nombreEmpresa = entrada.nextLine();
+        
         System.out.println("Ingrese el nombre por favor");
         nombre = entrada.nextLine();
 
@@ -58,6 +63,7 @@ public class Comercio012 {
             bono = 25; // $25
             sueldoFinal = adicionalSeguro + bono + sueldoBasico;
             System.out.printf("Reporte de Empleado EL GRAN COMERCIO\n\n"
+                    + "Empresa: %s\n"
                     + "Nombres: %s\n"
                     + "Apellidos: %s\n"
                     + "Edad: %d\n"
@@ -67,6 +73,7 @@ public class Comercio012 {
                     + "\tBono: $%.2f\n"
                     + "Adicional del seguro: $%.2f\n\n"
                     + "Sueldo final: $%.2f\n",
+                    nombreEmpresa,
                     nombre,
                     apellido,
                     edad,
@@ -82,30 +89,33 @@ public class Comercio012 {
                 bono = 50;
                 sueldoFinal = adicionalSeguro + bono + sueldoBasico;
                 System.out.printf("Reporte de Empleado EL GRAN COMERCIO\n\n"
-                        + "Nombres: %s\n"
-                        + "Apellidos: %s\n"
-                        + "Edad: %d\n"
-                        + "Sueldo: $%.2f\n"
-                        + "Número de productos vendidos: %d\n"
-                        + "\tProductidad: %.2f\n"
-                        + "\tBono: $%.2f\n"
-                        + "Adicional del seguro: $%.2f\n\n"
-                        + "Sueldo final: $%.2f\n",
-                        nombre,
-                        apellido,
-                        edad,
-                        sueldoBasico,
-                        numeroProductos,
-                        productividad,
-                        bono,
-                        adicionalSeguro,
-                        sueldoFinal);
+                    + "Empresa: %s\n"
+                    + "Nombres: %s\n"
+                    + "Apellidos: %s\n"
+                    + "Edad: %d\n"
+                    + "Sueldo: $%.2f\n"
+                    + "Número de productos vendidos: %d\n"
+                    + "\tProductidad: %.2f\n"
+                    + "\tBono: $%.2f\n"
+                    + "Adicional del seguro: $%.2f\n\n"
+                    + "Sueldo final: $%.2f\n",
+                    nombreEmpresa,
+                    nombre,
+                    apellido,
+                    edad,
+                    sueldoBasico,
+                    numeroProductos,
+                    productividad,
+                    bono,
+                    adicionalSeguro,
+                    sueldoFinal);
 
             } else {
                 if (productividad >= 80 && productividad < 200) {
                     bono = 100;
                     sueldoFinal = adicionalSeguro + bono + sueldoBasico;
                     System.out.printf("Reporte de Empleado EL GRAN COMERCIO\n\n"
+                            + "Empresa: %s\n"
                             + "Nombres: %s\n"
                             + "Apellidos: %s\n"
                             + "Edad: %d\n"
@@ -115,6 +125,7 @@ public class Comercio012 {
                             + "\tBono: $%.2f\n"
                             + "Adicional del seguro: $%.2f\n\n"
                             + "Sueldo final: $%.2f\n",
+                            nombreEmpresa,
                             nombre,
                             apellido,
                             edad,
@@ -130,6 +141,7 @@ public class Comercio012 {
                         bono = 200;
                         sueldoFinal = adicionalSeguro + bono + sueldoBasico;
                         System.out.printf("Reporte de Empleado EL GRAN COMERCIO\n\n"
+                                + "Empresa %s\n"
                                 + "Nombres: %s\n"
                                 + "Apellidos: %s\n"
                                 + "Edad: %d\n"
@@ -139,6 +151,7 @@ public class Comercio012 {
                                 + "\tBono: $%.2f\n"
                                 + "Adicional del seguro: $%.2f\n\n"
                                 + "Sueldo final: $%.2f\n",
+                                nombreEmpresa,
                                 nombre,
                                 apellido,
                                 edad,
